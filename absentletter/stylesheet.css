@@ -1,0 +1,182 @@
+@charset "utf-8";
+body{background-image:url(background.jpg);
+}
+
+#loginbox{
+	display:inline-block;
+	background-image:url(black.png);
+	width:400px;
+	height:250px;
+	position:fixed;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin:auto;
+	 border: 0.5px solid #FFF;	
+}
+#loginbox h2{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:24px;
+	}
+	#loginbox p {
+	color: #F00;
+}
+#loginbox h3{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:16px;
+}
+
+
+.top {
+	background-image: url(black.png);
+	background-repeat:repeat;
+	height:80px;
+	width:100%;
+	
+}
+.bottom {
+	background-image: url(black.png);
+	background-repeat:repeat;
+		width:900px;
+		height:100px;
+}
+.content {
+	width:900px;
+	background-image:url(white.png);
+	background-repeat:repeat;
+	height:800px;
+	border-top-color:#000;
+	color: #F00;
+}
+.list{
+	width:600px;
+	height:40px;
+	background-image:url(content.png);
+}
+.data{
+	width:600px;
+	height:40px;
+	background-image:url(data.png);
+}
+.layering{
+	background-image:url(layering.png);
+	width:500px;
+	height:300px;
+}
+
+.reportlayout{
+	width:90%;
+	height:700px;
+}
+
+.helppage{
+	width:80%;
+	height:700px;
+	border-style:groove;
+	border:#630;
+	border-width:thick;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#F90;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#F90;
+	text-decoration: none;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#C90;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#963;
+}
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FC0;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:14px;
+}
+	
+h6{font-family:Arial, Helvetica, sans-serif;
+	color:#963;
+	font-size:14px;
+}
+
+
+.content p {
+	color: #400000;
+}
+.content .top p {
+	color: #FFF;
+}
+
+.content .list table tr td p {
+	color: #FFF;
+}
+.content center .data table tr td p {
+	color: #FFF;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color:#FC0;
+	text-decoration:underline;
+}
+.table{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#400000;
+}
+.pagination{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#400000;
+	position:absolute;
+	top: 100%;
+	left:50%;
+	
+}
+	.content p {
+	color: #400000;
+}
+.content .top table tr td p {
+	color: #FFF;
+}
+.content .top p {
+	color: #FFF;
+}
+.incomplete{	
+	font-family: Arial, Helvetica, sans-serif;
+	color:#F00;
+}
+.complete{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#0F0;
+}
+
+.content h3 {
+	color: #F00;
+}
+.content form p {
+	color: #400000;
+}
+.content p {
+	color: #400000;
+}
+.content .top table tr td p {
+	color: #FFF;
+}
+.content .top p {
+	color: #FFF;
+}
